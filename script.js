@@ -22,8 +22,8 @@ function primeNum(a){
 
 function fun1(){
 var number1 = document.getElementById("value").value;
-if (number1 == 1) {
-    alert("1 is neithr Prime nor Composite")
+if (number1 <= 1) {
+    alert("The number is neither Prime nor Composite")
 }
 else{
 primeNum(number1)
